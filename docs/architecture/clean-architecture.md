@@ -1,4 +1,4 @@
-# Clean Architecture
+cd C:\Users\Laci\source\repos\HomeVPN# Clean Architecture
 
 **Status:** Proposed | **Version:** 0.1
 

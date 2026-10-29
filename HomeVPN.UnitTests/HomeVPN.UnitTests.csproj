@@ -15,6 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HomeVPN.Application\HomeVPN.Application.csproj" />
+    <ProjectReference Include="..\HomeVPN.Domain\HomeVPN.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

@@ -1,5 +1,4 @@
 <Solution>
-  <Folder Name="/docs/" />
   <Folder Name="/src/" />
   <Folder Name="/src/HomeVPN.API/">
     <Project Path="HomeVPN/HomeVPN.API.csproj">
