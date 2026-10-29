@@ -1,0 +1,14 @@
+.vs/
+**/bin/
+**/obj/
+TestResults/
+.env
+.env.*
+!.env.example
+*.key
+*.conf
+*.pfx
+*.p12
+**/secrets/
+docker/data/
+docker/volumes/

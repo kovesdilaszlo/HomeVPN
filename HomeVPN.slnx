@@ -1,0 +1,39 @@
+<Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/HomeVPN.API/">
+    <Project Path="HomeVPN/HomeVPN.API.csproj">
+      <BuildDependency Project="HomeVPN.Application/HomeVPN.Application.csproj" />
+      <BuildDependency Project="HomeVPN.Infrastructure/HomeVPN.Infrastructure.csproj" />
+    </Project>
+  </Folder>
+  <Folder Name="/src/HomeVPN.Application/">
+    <Project Path="HomeVPN.Application/HomeVPN.Application.csproj">
+      <BuildDependency Project="HomeVPN.Domain/HomeVPN.Domain.csproj" />
+    </Project>
+  </Folder>
+  <Folder Name="/src/HomeVPN.Domain/">
+    <Project Path="HomeVPN.Domain/HomeVPN.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/HomeVPN.Infrastructure/">
+    <Project Path="HomeVPN.Infrastructure/HomeVPN.Infrastructure.csproj">
+      <BuildDependency Project="HomeVPN.Application/HomeVPN.Application.csproj" />
+      <BuildDependency Project="HomeVPN.Domain/HomeVPN.Domain.csproj" />
+    </Project>
+  </Folder>
+  <Folder Name="/src/HomeVPN.Web/">
+    <Project Path="HomeVPN.Web/HomeVPN.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="HomeVPN.IntegrationTests/HomeVPN.IntegrationTests.csproj">
+      <BuildDependency Project="HomeVPN.Application/HomeVPN.Application.csproj" />
+      <BuildDependency Project="HomeVPN.Infrastructure/HomeVPN.Infrastructure.csproj" />
+      <BuildDependency Project="HomeVPN/HomeVPN.API.csproj" />
+    </Project>
+    <Project Path="HomeVPN.UnitTests/HomeVPN.UnitTests.csproj">
+      <BuildDependency Project="HomeVPN.Application/HomeVPN.Application.csproj" />
+      <BuildDependency Project="HomeVPN.Domain/HomeVPN.Domain.csproj" />
+      <BuildDependency Project="HomeVPN.Infrastructure/HomeVPN.Infrastructure.csproj" />
+    </Project>
+  </Folder>
+</Solution>
